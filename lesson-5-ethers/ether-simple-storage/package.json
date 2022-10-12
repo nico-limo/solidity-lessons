@@ -1,0 +1,18 @@
+{
+  "name": "ether-simple-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deploy.js",
+  "scripts": {
+    "compile": "yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol"
+  },
+  "author": "Nico Limo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.1",
+    "prettier": "^2.7.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.24",
+    "solc": "0.8.7-fixed"
+  }
+}
